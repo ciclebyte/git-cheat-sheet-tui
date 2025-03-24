@@ -1,0 +1,82 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*" # 匹配以 v 开头的标签，如 v1.0.0
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        goos: [windows, linux, darwin]
+        goarch: [386, amd64]
+        include:
+          - goos: windows
+            ext: .exe
+          - goos: linux
+            ext: ""
+          - goos: darwin
+            ext: ""
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: "1.23"
+
+      - name: Build
+        env:
+          GOOS: ${{ matrix.goos }}
+          GOARCH: ${{ matrix.goarch }}
+        run: go build -o gitsheet${{ matrix.ext }}
+
+      - name: Archive binary
+        run: |
+          mkdir -p release
+          mv gitsheet${{ matrix.ext }} release/gitsheet-${{ matrix.goos }}-${{ matrix.goarch }}${{ matrix.ext }}
+          if [ "${{ matrix.goos }}" != "windows" ]; then
+            tar -czvf release/gitsheet-${{ matrix.goos }}-${{ matrix.goarch }}.tar.gz -C release gitsheet-${{ matrix.goos }}-${{ matrix.goarch }}${{ matrix.ext }}
+          fi
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: gitsheet-${{ matrix.goos }}-${{ matrix.goarch }}
+          path: release/gitsheet-${{ matrix.goos }}-${{ matrix.goarch }}${{ matrix.ext }}
+          if: ${{ matrix.goos == 'windows' }}
+        uses: actions/upload-artifact@v3
+        with:
+          name: gitsheet-${{ matrix.goos }}-${{ matrix.goarch }}
+          path: release/gitsheet-${{ matrix.goos }}-${{ matrix.goarch }}.tar.gz
+          if: ${{ matrix.goos != 'windows' }}
+
+  create-release:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download all artifacts
+        uses: actions/download-artifact@v3
+        with:
+          path: artifacts
+
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          draft: false
+          prerelease: false
+
+      - name: Upload Release Assets
+        run: |
+          for asset in artifacts/*/*; do
+            gh release upload ${{ github.ref }} "$asset"
+          done
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
