@@ -1,0 +1,4 @@
+description: '`git config --global color.ui auto` 命令用于设置 Git 命令行输出的颜色为自动模式。启用此功能后，Git
+  会根据不同的操作和状态，自动为命令行输出添加颜色，以提高可读性和用户体验。'
+command: git config --global color.ui auto
+title: 设置 git 命令行输出为彩色

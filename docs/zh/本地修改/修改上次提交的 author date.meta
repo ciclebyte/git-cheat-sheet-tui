@@ -1,0 +1,4 @@
+description: '`git commit --amend --date="date"` 命令用于修改最近一次提交的 `author date`。`author
+  date` 是提交的作者日期，通常记录提交的创建时间。通过该命令，用户可以手动指定一个新的日期来覆盖之前的 `author date`。'
+command: git commit --amend --date="date"
+title: 修改上次提交的 author date

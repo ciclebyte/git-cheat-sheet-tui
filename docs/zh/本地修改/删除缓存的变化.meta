@@ -1,0 +1,3 @@
+description: '`git stash drop` 命令用于删除 Git 存储（stash）中的最近一次缓存的变化。执行该命令后，指定的缓存将被永久删除，无法恢复。'
+command: git stash drop [<stash>]
+title: 删除缓存的变化

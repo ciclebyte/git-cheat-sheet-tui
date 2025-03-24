@@ -1,0 +1,4 @@
+description: '`git pull` 命令用于从远程仓库下载所有修改，并自动与当前分支的 HEAD 进行合并。这个命令相当于先执行 `git fetch`
+  获取远程仓库的更新，然后再执行 `git merge` 将这些更新合并到当前分支。'
+command: git pull <remote> <branch>
+title: 从远程仓库下载所有修改，并自动与 HEAD 合并

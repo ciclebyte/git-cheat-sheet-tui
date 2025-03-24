@@ -1,0 +1,3 @@
+description: '`git rebase --abort` 命令用于终止当前的变基（rebase）操作，并将分支恢复到变基操作开始之前的状态。如果在变基过程中遇到冲突或其他问题，可以使用此命令中止变基并回退到初始状态。'
+command: git rebase --abort
+title: 终止重置

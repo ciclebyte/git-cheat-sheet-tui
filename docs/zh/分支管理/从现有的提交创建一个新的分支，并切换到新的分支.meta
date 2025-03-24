@@ -1,0 +1,4 @@
+description: '`git checkout -b` 命令用于从现有的提交创建一个新的分支，并立即切换到该新分支。这个命令结合了 `git branch`
+  和 `git checkout` 两个命令的功能，既创建分支又切换分支。'
+command: git checkout <commit-hash> -b <new_branch_name>
+title: 从现有的提交创建一个新的分支，并切换到新的分支

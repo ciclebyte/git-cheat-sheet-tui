@@ -1,0 +1,3 @@
+description: '`git checkout HEAD <file>` 命令用于放弃工作目录中对指定文件的所有修改，将其恢复到最近一次提交的状态。这个命令可以有效地撤销对文件的未提交更改，确保工作目录中的文件与仓库中的最新版本一致。'
+command: git checkout HEAD <file>
+title: 放弃工作目录下的所有修改

@@ -1,0 +1,3 @@
+description: '`git branch -r` 命令用于列出本地仓库中所有的远程分支。这些分支是远程仓库中的分支在本地仓库中的引用。'
+command: git branch -r
+title: 列出所有的远程分支

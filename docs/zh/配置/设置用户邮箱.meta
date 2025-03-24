@@ -1,0 +1,3 @@
+description: '`git config --global user.email` 命令用于设置 Git 的全局用户邮箱。该邮箱信息将会被记录在每次提交的元数据中，便于其他开发者识别提交者的身份。'
+command: git config --global user.email "[valid-email]"
+title: 设置用户邮箱

@@ -1,0 +1,4 @@
+description: '`git rm -r --cached .` 命令用于从 Git 仓库的索引中移除所有已跟踪的文件，但不会删除工作目录中的实际文件。这在添加
+  `.gitignore` 文件后，需要删除之前错误提交的文件时非常有用。'
+command: git rm -r --cached .
+title: 删除添加 .gitignore 文件前错误提交的文件

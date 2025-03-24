@@ -1,0 +1,3 @@
+description: '`git rebase` 命令用于将当前分支的提交记录重新应用到指定的分支上。它可以用来整理提交历史，将分支的提交记录转移到另一个分支的顶部。'
+command: git rebase <branch>
+title: 将当前 HEAD 版本重置到分支中

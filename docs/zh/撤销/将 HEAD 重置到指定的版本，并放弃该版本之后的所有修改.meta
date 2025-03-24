@@ -1,0 +1,3 @@
+description: '`git reset --hard` 命令用于将当前分支的 HEAD 指针重置到指定的提交（commit），并且会放弃该提交之后的所有修改。这个操作会强制将工作目录和暂存区的内容恢复到指定提交的状态。'
+command: git reset --hard <commit>
+title: 将 HEAD 重置到指定的版本，并放弃该版本之后的所有修改

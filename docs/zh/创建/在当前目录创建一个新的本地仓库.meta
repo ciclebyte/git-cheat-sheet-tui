@@ -1,0 +1,4 @@
+description: '`git init` 命令用于在当前目录下初始化一个新的 Git 仓库。执行该命令后，Git 会在当前目录中创建一个名为 `.git`
+  的隐藏目录，该目录包含了 Git 用于跟踪版本控制的所有必要文件和子目录。'
+command: git init
+title: 在当前目录创建一个新的本地仓库

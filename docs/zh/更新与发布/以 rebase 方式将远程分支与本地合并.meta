@@ -1,0 +1,4 @@
+description: '`git pull --rebase` 命令用于将远程分支的更改以 rebase 的方式合并到本地分支。与普通的 `git pull`
+  不同，`git pull --rebase` 会将本地的提交“基变”到远程分支的最新提交之上，从而保持提交历史的线性。'
+command: git pull --rebase <remote> <branch>
+title: 以 rebase 方式将远程分支与本地合并

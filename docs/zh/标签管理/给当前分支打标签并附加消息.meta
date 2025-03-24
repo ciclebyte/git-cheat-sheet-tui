@@ -1,0 +1,4 @@
+description: '`git tag` 命令用于在 Git 中创建、列出、删除或验证标签对象（通常是用于标记发布版本）。通过使用 `-a` 选项，可以创建一个带注释的标签，并通过
+  `-m` 选项附加一条消息。'
+command: git tag <tag-name> -a -m 'message here'
+title: 给当前分支打标签并附加消息

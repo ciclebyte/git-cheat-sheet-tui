@@ -1,0 +1,4 @@
+description: '`git rebase --continue` 命令用于在解决冲突后继续执行 `git rebase` 操作。通常在 `git rebase`
+  过程中遇到冲突时，Git 会暂停 rebase 操作并提示用户手动解决冲突。解决冲突后，可以使用该命令继续完成 rebase 过程。'
+command: git rebase --continue
+title: 解决冲突后继续重置

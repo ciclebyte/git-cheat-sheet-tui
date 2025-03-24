@@ -1,0 +1,4 @@
+description: Git 是一个分布式版本控制系统，它允许开发者在本地和远程仓库之间进行代码的版本管理。为了在提交代码时能够正确标识作者身份，Git 提供了设置用户名的功能。通过
+  `git config --global user.name` 命令，可以为当前用户全局设置用户名。
+command: git config --global user.name "[firstname lastname]"
+title: 设置用户名

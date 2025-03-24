@@ -1,0 +1,3 @@
+description: '`git rebase -i` 是一个强大的 Git 命令，用于交互式地重新应用提交。通过该命令，你可以将多个提交合并为一个提交，从而简化提交历史。'
+command: git rebase -i <commit-just-before-first>
+title: 合并提交

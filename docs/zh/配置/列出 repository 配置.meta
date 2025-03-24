@@ -1,0 +1,4 @@
+description: '`git config --local --list` 命令用于列出当前 Git 仓库的本地配置信息。本地配置信息存储在仓库的 `.git/config`
+  文件中，仅对当前仓库有效。'
+command: git config --local --list
+title: 列出 repository 配置

@@ -1,0 +1,3 @@
+description: '`git branch -a` 命令用于列出本地仓库中所有的分支，包括本地分支和远程跟踪分支。'
+command: git branch -a
+title: 列出所有的分支

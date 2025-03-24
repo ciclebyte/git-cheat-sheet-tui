@@ -1,0 +1,3 @@
+description: '`git pull` 命令用于从远程仓库获取更新并合并到当前分支。它实际上是 `git fetch` 和 `git merge` 两个命令的组合。'
+command: git pull <remote> <branch>
+title: 合并到本地仓库中

@@ -1,0 +1,3 @@
+description: '`git reset --keep <commit>` 命令用于将 `HEAD` 指针重置到指定的提交版本，同时保留工作目录中未提交的本地修改。这个命令通常用于回退到之前的某个提交状态，但保留当前工作目录中的更改。'
+command: git reset --keep <commit>
+title: 将 HEAD 重置到上一次提交的版本，并保留未提交的本地修改

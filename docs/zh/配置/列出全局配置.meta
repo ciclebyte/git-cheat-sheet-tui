@@ -1,0 +1,4 @@
+description: '`git config --global --list` 用于列出所有已设置的全局 Git 配置。这些配置通常保存在用户的主目录下的 `.gitconfig`
+  文件中。'
+command: git config --global --list
+title: 列出全局配置

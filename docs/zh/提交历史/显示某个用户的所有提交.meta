@@ -1,0 +1,4 @@
+description: '`git log --author="username"` 命令用于显示指定用户的所有提交记录。通过指定 `--author` 参数，可以筛选出某个用户在
+  Git 仓库中所做的所有提交。'
+command: git log --author="username"
+title: 显示某个用户的所有提交

@@ -1,0 +1,3 @@
+description: '`git grep` 命令用于在 Git 仓库中搜索指定的文本字符串。它可以在整个仓库中搜索，也可以限定在特定的版本或分支中进行搜索。通过指定版本号或分支名，你可以精确地在某个特定的提交或分支中查找文本。'
+command: git grep <search_string> <commit_or_branch>
+title: 在某一版本中搜索文本

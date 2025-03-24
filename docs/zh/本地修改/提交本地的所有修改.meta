@@ -1,0 +1,3 @@
+description: '`git commit -a` 是一个用于提交本地所有修改的命令。该命令会自动将所有已跟踪文件的修改（包括删除和新增）添加到暂存区，并创建一个新的提交。'
+command: git commit -a
+title: 提交本地的所有修改

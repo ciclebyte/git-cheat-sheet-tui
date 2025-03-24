@@ -1,0 +1,3 @@
+description: '`git merge` 命令用于将指定分支的更改合并到当前所在的分支（即 HEAD 指向的分支）中。该命令常用于在开发过程中，将一个分支的功能或修复合并到主分支或其他目标分支。'
+command: git merge <branch>
+title: 将分支合并到当前 HEAD 中

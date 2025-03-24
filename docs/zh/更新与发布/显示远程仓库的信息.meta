@@ -1,0 +1,3 @@
+description: '`git remote show` 命令用于显示指定远程仓库的详细信息，包括远程仓库的URL、跟踪分支的状态、远程分支的更新情况等。'
+command: git remote show <remote>
+title: 显示远程仓库的信息

@@ -1,0 +1,3 @@
+description: '`git commit --date` 命令用于提交更改，并将提交时间设置为指定的日期。这在需要模拟历史提交或其他需要特定时间戳的场景中非常有用。'
+command: git commit --date="DATE" -am "COMMIT_MESSAGE"
+title: 提交，并将提交时间设置为之前的某个日期

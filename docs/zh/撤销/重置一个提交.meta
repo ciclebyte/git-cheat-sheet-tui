@@ -1,0 +1,3 @@
+description: '`git revert` 命令用于撤销一个或多个提交的更改。与 `git reset` 不同，`git revert` 不会删除历史记录，而是通过创建一个新的提交来撤销指定提交的更改。这种方式更安全，尤其是在团队协作中，因为它不会影响其他开发者的工作。'
+command: git revert <commit>
+title: 重置一个提交

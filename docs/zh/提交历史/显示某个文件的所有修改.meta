@@ -1,0 +1,3 @@
+description: '`git log -p` 命令用于显示某个文件的所有修改记录。该命令会列出该文件在 Git 仓库中的每次提交，并显示每次提交的具体修改内容。'
+command: git log -p <file>
+title: 显示某个文件的所有修改

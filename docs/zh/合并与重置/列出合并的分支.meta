@@ -1,0 +1,3 @@
+description: '`git branch --merged` 命令用于列出当前分支中已经合并的所有分支。这可以帮助开发者识别哪些分支已经完成了合并工作，从而进行清理或删除。'
+command: git branch --merged [<commit>]
+title: 列出合并的分支

@@ -1,0 +1,4 @@
+description: '`git config --global core.editor` 命令用于设置 Git 使用的文本编辑器。通过该命令，用户可以指定在
+  Git 操作中需要输入文本时使用的默认编辑器。'
+command: git config --global core.editor <editor>
+title: 设置 git 使用的文本编辑器

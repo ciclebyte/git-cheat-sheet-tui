@@ -1,0 +1,4 @@
+description: Git 是一款分布式版本控制软件。在 Git 中，当多个分支对同一个文件的同一个部分进行了不同的修改时，就会产生冲突。此时，用户需要手动解决冲突。为了简化冲突解决的流程，Git
+  提供了 `git mergetool` 命令，它可以调用用户配置的第三方合并工具（如 kdiff3、p4merge 等）来帮助解决冲突。
+command: git mergetool [<options>] [<file>…]
+title: 使用配置好的 merge tool 解决冲突

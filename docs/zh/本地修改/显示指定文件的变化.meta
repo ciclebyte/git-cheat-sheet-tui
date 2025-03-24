@@ -1,0 +1,3 @@
+description: '`git diff <file>` 命令用于显示指定文件在工作目录和暂存区之间的差异。它可以帮助你查看文件在最近一次提交之后所做的修改。'
+command: git diff <file>
+title: 显示指定文件的变化

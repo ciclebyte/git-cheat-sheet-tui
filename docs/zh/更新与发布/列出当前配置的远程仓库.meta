@@ -1,0 +1,3 @@
+description: '`git remote -v` 命令用于列出当前 Git 仓库中配置的所有远程仓库及其对应的 URL。该命令可以帮助开发者快速查看本地仓库与远程仓库的关联情况。'
+command: git remote -v
+title: 列出当前配置的远程仓库

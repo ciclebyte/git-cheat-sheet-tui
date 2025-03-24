@@ -1,0 +1,3 @@
+description: '`git push` 命令用于将本地的提交推送到远程仓库。通过特定的语法，可以删除远程仓库中的分支。'
+command: git push <remote> :<branch>
+title: 删除远程分支

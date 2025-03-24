@@ -1,0 +1,4 @@
+description: '`git config --list` 命令用于列出当前 Git 仓库或系统中的所有配置项及其对应的值。通过这些配置项，可以查看与 Git
+  操作相关的各种设置，例如用户信息、别名、编辑器、远程仓库地址等。'
+command: git config --list
+title: 列出当前配置

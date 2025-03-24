@@ -1,0 +1,3 @@
+description: '`git commit -m` 命令用于提交当前暂存区的内容，并附加一条提交消息。该命令通常用于在本地仓库中记录对文件的修改。'
+command: git commit -m 'message here'
+title: 附加消息提交

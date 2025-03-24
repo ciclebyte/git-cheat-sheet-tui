@@ -1,0 +1,4 @@
+description: '`git config --system --list` 命令用于列出系统中所有 Git 的全局配置项。这些配置项通常存储在系统的 Git
+  配置文件中，对所有用户和所有仓库生效。'
+command: git config --system --list
+title: 列出系统配置

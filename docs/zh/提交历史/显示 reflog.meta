@@ -1,0 +1,4 @@
+description: '`git reflog` 命令用于显示本地仓库的引用日志（reflog）。引用日志记录了 HEAD 和分支的更新历史，包括提交、重置、合并等操作。即使某些提交不再被任何分支引用，仍然可以通过
+  reflog 查看这些提交的历史。'
+command: git reflog show [<ref>]
+title: 显示 reflog

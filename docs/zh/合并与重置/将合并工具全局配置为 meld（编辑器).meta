@@ -1,0 +1,4 @@
+description: '`git config --global merge.tool meld` 命令用于将 Git 的合并工具全局配置为 meld 编辑器。Meld
+  是一个可视化的差异和合并工具，适合用于解决合并冲突。通过此配置，用户在使用 Git 进行合并操作时，默认会使用 meld 编辑器来处理合并冲突。'
+command: git config --global merge.tool meld
+title: 将合并工具全局配置为 meld（编辑器)

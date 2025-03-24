@@ -1,0 +1,3 @@
+description: '`git status` 命令用于显示当前工作目录和暂存区（staging area）的状态。它会列出已修改的文件、未跟踪的文件以及暂存区中准备提交的文件。'
+command: git status
+title: 显示工作路径下已修改的文件

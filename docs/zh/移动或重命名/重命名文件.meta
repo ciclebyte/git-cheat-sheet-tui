@@ -1,0 +1,4 @@
+description: '`git mv` 命令用于在 Git 仓库中重命名文件或目录。它不仅会修改工作目录中的文件名称，还会将此更改记录到 Git 的历史中，确保
+  Git 能够正确跟踪文件的移动。'
+command: git mv <old_file_name> <new_file_name>
+title: 重命名文件
